@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #title{
+                width:100px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <fieldset>
+        <form action="#" target="blank" method="">
+          <h1>Payment Form</h1>
+           <br> Required field are followed by *
+           <br> <h2> Contact Information</h2>
+           <fieldset id= "title">
+               <legend> Title</legend>
+               <input type="radio" name="gender" value="Mister">Mister
+               <br><input type="radio" name="gender" value="Miss">Miss
+           </fieldset>
+           Name:*<input type="text" name="name"><br>
+           E-mail:* <input type="text" name="email"><br>
+           Password:* <input type="password" name="password">
+           <h2>Payment Information</h2>
+           Card type: <select name="Card" >
+                       <option value="Visa" selected>Visa</option>
+                       <option value="Credit Card">Credit Card</option>
+           </select> <br>
+           Card Number:* <input type="numb er" name="cardNo"> <br>
+           Expiration Date: * <input type="date" name="date"> <br>
+           <button> Validate the payment</button>
+        </form>
+    </fieldset>
+    </body>
+</html>
